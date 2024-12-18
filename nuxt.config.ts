@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   content: {
     database: {
       type: 'd1',
-      binding: 'dcce0bd8-5f1c-403a-acea-6f67d72ff5a3'
+      binding: '2b6a06ed-ebf4-4d6f-a218-bda0b7fc8d87'
     }
   },
   hub: {
