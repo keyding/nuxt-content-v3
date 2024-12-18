@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxthub/core'],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   content: {
@@ -9,4 +9,7 @@ export default defineNuxtConfig({
       binding: 'dcce0bd8-5f1c-403a-acea-6f67d72ff5a3'
     }
   },
+  hub: {
+    database: true
+  }
 })
