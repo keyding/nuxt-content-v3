@@ -8,5 +8,8 @@ export default defineNuxtConfig({
       type: 'd1',
       binding: 'dcce0bd8-5f1c-403a-acea-6f67d72ff5a3'
     }
+  },
+  routeRules: {
+    '/': { prerender: true }
   }
 })
