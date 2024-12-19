@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   content: {
     database: {
       type: 'd1',
-      binding: 'nuxt-content-v32'
+      binding: 'DB'
     }
   },
   hub: {
