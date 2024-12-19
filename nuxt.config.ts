@@ -1,15 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxthub/core'],
-  compatibilityDate: '2024-11-01',
+  modules: ['@nuxt/content'],
+  compatibilityDate: '2024-12-19',
   devtools: { enabled: true },
   content: {
     database: {
       type: 'd1',
       binding: 'DB'
     }
-  },
-  hub: {
-    database: true
   }
 })
